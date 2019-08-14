@@ -14,7 +14,7 @@ namespace GenomixJsonDeserialize
         {
             //Console.WriteLine("Json File Path : ");
             //string path = Console.ReadLine();
-            string path = @"C:\Users\rcmd\Desktop\Aternum DEV\json\ag-SB20879-file all.json";
+            string path = @"C:\Users\rcmd\Desktop\Aternum DEV\json\ag-SB20879-file carrier.json";
             StreamReader stream = new StreamReader(path);
             string JsonString = stream.ReadToEnd();
 
